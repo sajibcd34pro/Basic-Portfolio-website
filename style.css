@@ -76,15 +76,17 @@ main{
 
 /* about section styles */
 .about{
-    margin-top: 13px;
+    margin: 150px auto;
     background:#FFF8F3;
     border-radius: 10px;
     padding: 156px 131px;
+    
 }
 .section-title{
     text-align: center;
     font-weight: 700;
     font-size: 35px;
+    margin-bottom: 30px;
 }
 .about-description{
     text-align: left;
@@ -97,9 +99,47 @@ main{
 .about-info-container{
     display: flex;
     justify-content: space-around;
+    text-align: center;
 }
 .info-title{
     color:#757575;
     font-size: 20px;
-    font-weight: 700;;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.info-desc{
+    color:#474747;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+/* skill */
+.skill-intro{
+    margin-bottom: 50px;
+    
+}
+.skill-container{
+    display: flex;
+    gap:24px;
+}
+.skill-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.skill{
+    background-color:#ffff;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+    margin-bottom: 130px;
+}
+
+/* summary of resume */
+.summary-title{
+    margin-bottom: 120px;
+    text-align: center;
+    font-size: 35px;
+    color: #181818;
 }
